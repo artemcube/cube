@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КУБ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="иконка.jpg">
+</head>
+<body>
+    <div class="div-photo">
+        <img class="logo" src="логотип.jpg" alt="фото">
+    </div>
+    <div class="main-div">
+        <div class="left">
+
+        </div>
+        <div class="center">
+            <h1>КУБ</h1>
+            <div class="spisok">
+                <ol>
+                    <li><a href="#photoSpisok">ФОТОГРАФИИ</a></li>
+                    <li><a href="#appSpisok">ПРИЛОЖЕНИЯ</a></li>
+                    <li>ЧЕРНИЛЬНЫЙ МИР</li>
+                    <li>МЕРЧ</li>
+                </ol>
+            </div>
+            <h2 id="photoSpisok">1. ФОТОГРАФИИ</h2>
+            <p>Тема пункта - фотографии и видео, которые связаны с фотографиями. В начале этого пункта находится карусель из пяти фотографий.</p>
+            <div class="slider">
+                <img id="photoOne" src="фото1.jpg" alt="">
+            </div>
+            <button type="button" onclick="slide()" id="buttonOne">ДРУГОЕ ФОТО</button>
+            <div class="myShow">
+                <div class="myShowLeft">
+                    <label for="showOne">НА ФОТО И В ЖИЗНИ</label>
+                    <input type="checkbox" id="showOne">
+                    <div class="myShowOne">
+                        <a href="https://t.me/cubik_ik_ik/140">НА ФОТО И В ЖИЗНИ (1)</a><br>
+                        <a href="">НА ФОТО И В ЖИЗНИ (2)</a><br>
+                        <a href="">НА ФОТО И В ЖИЗНИ(5 ФОТО КУБА (2))</a><br>
+                        <a href="">МИНИ-ВЕРСИЯ (1)</a><br>
+                        <a href="">НА ФОТО И В ЖИЗНИ (ФОТОАБСТРАКЦИОНИЗМ)</a><br>
+                        <a href="">МИНИ-ВЕРСИЯ (2)</a><br>
+                        <a href="">НА ФОТО И В ЖИЗНИ (3)</a><br>
+                        <a href="">НА ФОТО И В ЖИЗНИ (4)</a><br>
+                        <a href="">МИНИ-ВЕРСИЯ (3)</a><br>
+                        <a href="">МИНИ-ВЕРСИЯ (4)</a><br>
+                        <a href="">РЕКВИЗИТ (1)</a><br>
+                        <a href="">РЕКВИЗИТ (2)</a><br>
+                        <a href="">НА ФОТО И В ЖИЗНИ (5)</a>
+                    </div>
+                </div>
+                <div class="myShowRight">
+                    <label for="showTwo"></label>
+                    <input type="checkbox" id="showTwo">
+                </div>
+            </div>
+            
+            <h2 id="appSpisok">2. ПРИЛОЖЕНИЯ</h2>
+            <h2>3. ЧЕРНИЛЬНЫЙ МИР</h2>
+            <h2>4. МЕРЧ</h2>    
+        </div>
+        <div class="right">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
